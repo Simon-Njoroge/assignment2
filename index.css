@@ -61,7 +61,7 @@ h2 {
 }
 
 .contact-btn {
-    background-color: #ff7a00;
+    background-color: black;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -86,4 +86,41 @@ h2 {
     border-radius: 10px;
     object-fit: cover;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.skills {
+    margin-top: 40px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills ul li {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.skills ul li:hover {
+    background-color: #ff7a00;
+    color: white;
 }
